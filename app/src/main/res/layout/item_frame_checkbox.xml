@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="8dp"
+    android:layout_marginEnd="4dp"
+    android:background="@drawable/bg_frame_item">
+
+    <ImageView
+        android:id="@+id/imgFramePreview"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerInside"
+        android:background="#11000000"
+        android:contentDescription="Frame Preview" />
+
+    <CheckBox
+        android:id="@+id/checkboxFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:maxLines="1" />
+
+    <TextView
+        android:id="@+id/tvFrameOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="#FF4081"
+        android:visibility="gone" />
+
+</LinearLayout>

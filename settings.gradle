@@ -1,0 +1,2 @@
+rootProject.name = "n2live-sprite-engine"
+include ':app'
